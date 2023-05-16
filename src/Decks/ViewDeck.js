@@ -16,7 +16,7 @@ function ViewDeck({ buildDeckList }) {
         .then( (res) =>{
             setDeck(res)
         })       
-},[])
+},[deckId])
 
   const history = useHistory();
 

@@ -53,7 +53,7 @@ function Study() {
     readDeck(deckId).then((deck) => {
       setDeck(deck);
     });
-  }, []);
+  }, [deckId]);
 
   if (deck.cards && deck.cards.length < 3) {
     return (

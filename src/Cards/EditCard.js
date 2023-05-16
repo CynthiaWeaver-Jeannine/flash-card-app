@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import {
-  BrowserRouter as Router,
   Link,
   useHistory,
   useParams,
@@ -26,7 +25,7 @@ function EditCard() {
         setFormData(res);
       });
     });
-  }, []);
+  }, [deckId,cardId]);
 
   function handleInputChange(event) {
     event.preventDefault();

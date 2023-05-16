@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowserRouter as Router, Link} from "react-router-dom"
+import {Link} from "react-router-dom"
 
 //Button behavior: on EditCard, if the user clicks on either Save or Cancel, the user is taken to the Deck screen. 
 //on AddCard, if he user clicks Save, a new card is created and associated with the relevant deck. If the user clicks Done, the user is taken to the Deck screen.
