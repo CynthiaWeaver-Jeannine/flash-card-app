@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import {
-  BrowserRouter as Router,
   useHistory,
   NavLink,
 } from "react-router-dom";
 import { deleteDeck } from "../utils/api";
 
+//the deck screen displays the information about a deck
 function Deck({ data, buildDeckList }) {
   const history = useHistory();
 
