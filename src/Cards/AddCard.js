@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import {
-  BrowserRouter as Router,
   Link,
   useHistory,
   useParams,
@@ -8,7 +7,7 @@ import {
 import { createCard, readDeck } from "../utils/api";
 import CardForm from "./CardForm";
 
-
+//allows user to add a card to an existing deck
 
 function AddCard() {
   const { deckId } = useParams();
