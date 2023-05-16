@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Header from "./Header";
 import NotFound from "./NotFound";
 import {
-  BrowserRouter as Router,
   Route,
   Switch,
 } from "react-router-dom";
@@ -10,11 +9,12 @@ import DeckList from "../Decks/DeckList";
 import Study from "../Decks/Study";
 import ViewDeck from "../Decks/ViewDeck";
 import CreateDeck from "../Decks/CreateDeck"
-import { listDecks, deleteCard, deleteDeck } from "../utils/api";
+import { listDecks } from "../utils/api";
 import EditDeck from "../Decks/EditDeck";
 import AddCard from "../Cards/AddCard";
 import EditCard from "../Cards/EditCard";
 
+//index page; app layout
 
 function Layout() {
 
