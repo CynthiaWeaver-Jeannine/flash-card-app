@@ -25,7 +25,7 @@ function AddCard() {
     readDeck(deckId).then((res) => {
       setDeck(res);
     });
-  }, []);
+  }, [deckId]);
 
   function handleCardSubmit(event) {
     event.preventDefault()
@@ -33,6 +33,8 @@ function AddCard() {
       history.push(`/decks/${deckId}`);
     });
   }
+ 
+
 
   function handleInputChange(event){
     event.preventDefault();

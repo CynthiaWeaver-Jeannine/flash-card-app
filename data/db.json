@@ -9,6 +9,11 @@
       "name": "new deck",
       "description": "info",
       "id": 2
+    },
+    {
+      "name": "New Deck 2",
+      "description": "information for a new deck",
+      "id": 3
     }
   ],
   "cards": [
@@ -54,6 +59,36 @@
       "back": "back of new card",
       "deckId": 2,
       "id": 8
+    },
+    {
+      "front": "card1 front",
+      "back": "card 1 back",
+      "deckId": 3,
+      "id": 9
+    },
+    {
+      "front": "card 2 front",
+      "back": "card 2 back",
+      "deckId": 3,
+      "id": 10
+    },
+    {
+      "front": "card 3 front",
+      "back": "card 3 back",
+      "deckId": 3,
+      "id": 11
+    },
+    {
+      "front": "new card 4 front",
+      "back": "new card 4 back",
+      "deckId": 3,
+      "id": 12
+    },
+    {
+      "front": "asdf",
+      "back": "asdf back",
+      "deckId": 3,
+      "id": 13
     }
   ]
 }

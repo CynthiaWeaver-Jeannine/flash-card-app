@@ -6,7 +6,8 @@ import {
   NavLink,
 } from "react-router-dom";
 import { createDeck } from "../utils/api";
-
+//clicking "/" takes the user to the home screen
+//the home screen has Create Deck option shows the available card decks with options
 function CreateDeck({ buildDeckList }) {
   const history = useHistory();
 
