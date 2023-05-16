@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import CardForm from "./CardForm";
 import { readCard, readDeck, updateCard } from "../utils/api";
-
+//allows users to modify information on an existing card
 function EditCard() {
   const { deckId, cardId } = useParams();
   const history = useHistory();

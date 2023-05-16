@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from "react";
 import {
-  BrowserRouter as Router,
   Link,
   useHistory,
   useParams,
 } from "react-router-dom";
 import { updateDeck, readDeck } from "../utils/api";
-
+//allows user to modify information on an existing card deck
 function EditDeck({ buildDeckList }) {
   const history = useHistory();
   const { deckId } = useParams();
