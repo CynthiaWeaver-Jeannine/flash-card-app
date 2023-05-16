@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { readDeck } from "../utils/api";
 import {
-  BrowserRouter as Router,
   Link,
   useHistory,
   useParams,
   NavLink,
 } from "react-router-dom";
 
+//allows user to study cards from a selected deck
 function Study() {
   const { deckId } = useParams();
   const history = useHistory();
