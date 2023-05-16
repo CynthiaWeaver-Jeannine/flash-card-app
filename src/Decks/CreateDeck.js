@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React, { useState} from "react";
 import {
-  BrowserRouter as Router,
   Link,
   useHistory,
   NavLink,
@@ -8,6 +7,7 @@ import {
 import { createDeck } from "../utils/api";
 //clicking "/" takes the user to the home screen
 //the home screen has Create Deck option shows the available card decks with options
+//delete deck alerts user with delete/cancel options
 function CreateDeck({ buildDeckList }) {
   const history = useHistory();
 
